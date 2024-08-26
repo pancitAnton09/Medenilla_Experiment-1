@@ -1,8 +1,8 @@
 # Experiment 1
-## Introduction to Python Programming
+# Introduction to Python Programming
 
-### Alphabet Soup Problem
 
+## Alphabet Soup Problem
 #Define function sorting string alphabetically
 def sort_alphabetically(S):
 		sorted_STRING = ''.join(sorted(S))
@@ -18,8 +18,7 @@ result = sort_alphabetically(user_input)
 print("Sorted string: ", result)
 
 
-### Emoticon Problem
-
+## Emoticon Problem
 #Define the function that changes specific words of a sentence into an emoticon
 def emotify(sentence):
     #Dictionary of words to their corresponding emoticons
@@ -35,7 +34,7 @@ def emotify(sentence):
     new_sentence = ' '.join(emotified)
     
     return new_sentence
-
+    
 #Get user input
 user_input = input("Please enter a sentence: ")
 
@@ -45,8 +44,8 @@ result = emotify(user_input)
 #Display the result
 print(result)
 
-### Unpacking List Problem
 
+## Unpacking List Problem
 #Define the list writeyourcode here
 writeyourcodehere = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
