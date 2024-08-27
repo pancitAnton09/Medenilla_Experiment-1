@@ -3,7 +3,7 @@
 
 
 ## Alphabet Soup Problem
-#Define function sorting string alphabetically
+````#Define function sorting string alphabetically
 def sort_alphabetically(S):
 		sorted_STRING = ''.join(sorted(S))
     return sorted_STRING
@@ -16,10 +16,10 @@ result = sort_alphabetically(user_input)
 
 #Display the sorted result
 print("Sorted string: ", result)
-
+````
 
 ## Emoticon Problem
-#Define the function that changes specific words of a sentence into an emoticon
+````#Define the function that changes specific words of a sentence into an emoticon
 def emotify(sentence):
     #Dictionary of words to their corresponding emoticons
     emoticons = { "smile": ":)", "grin": ":D", "sad": ":((", "mad": ">:("}
@@ -43,10 +43,10 @@ result = emotify(user_input)
 
 #Display the result
 print(result)
-
+````
 
 ## Unpacking List Problem
-#Define the list writeyourcode here
+````#Define the list writeyourcode here
 writeyourcodehere = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 #Unpack the list
@@ -54,3 +54,4 @@ first, *middle, last = writeyourcodehere
 
 #Print the variables
 print("first:", first, " middle:", middle, " last:", last)
+````
